@@ -33,9 +33,9 @@ const Navbar = () => {
 
 return (
     <header>
-    <nav className='nav-container'>
+    <nav className='nav-container fixed-top'>
         <Link to='/'>
-            <img src='https://res.cloudinary.com/djbs4yqbz/image/upload/v1707909169/logo_pv2zbp.png' alt="logo" className='nav-logo' />
+            <img src='https://res.cloudinary.com/djbs4yqbz/image/upload/v1708089542/cloudcodelogo_wmrcvo.jpg' alt="logo" className='nav-logo' />
         </Link>
         <div className="nav-search-container">
             <input type="search" className='nav-search-input' placeholder='Search'/>
@@ -48,7 +48,7 @@ return (
             <Link to='/careers' className='nav-link'><li className='nav-li'>Careers</li></Link>
             <Link to='/aboutus' className='nav-link'><li className='nav-li'>About Us</li></Link>
         </ul>
-        <div className='nav-sm-login'>
+        <div className='nav-lg-login'>
             <Button onClick={handleLoginClick}>Login</Button>
             <Button onClick={handleSignupClick}>Sign Up</Button>
 
@@ -60,10 +60,10 @@ return (
                 )}
         </div>
     </nav>
-    <nav className="nav-for-samlldevices">
+    <nav className="nav-for-samlldevices fixed-top">
         <div className="nav-sm-container">
             <Link to='/'>
-                <img src='https://res.cloudinary.com/djbs4yqbz/image/upload/v1707909169/logo_pv2zbp.png' alt="logo" className='nav-logo' />
+                <img src='https://res.cloudinary.com/djbs4yqbz/image/upload/v1708089542/cloudcodelogo_wmrcvo.jpg' alt="logo" className='nav-logo' />
             </Link>
             <button type="button" className="hamburger-button" onClick={onClickHamburger}>
                 <GiHamburgerMenu size={20} color="#5755d9"/>

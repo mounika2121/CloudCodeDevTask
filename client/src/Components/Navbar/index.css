@@ -1,10 +1,11 @@
 .nav-container{
-    background-color: #111625;
+    background-color: white;
     height: 10vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    border-bottom: 1px solid rgb(201, 193, 193);
 }
 
 .nav-logo{
@@ -16,7 +17,7 @@
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    color: #1bbc9b;;
+    color: #1bbc9b;
 }
 .nav-li{
     margin-left: 25px;
@@ -30,6 +31,7 @@
     outline: none;
     color: gray;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .nav-search-container{
@@ -38,6 +40,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border: 1px solid rgb(201, 193, 193);
+    border-radius: 10px;
 }
 
 .nav-search-button{
@@ -62,6 +66,11 @@
 
 .nav-link{
     text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-lg-login{
+    padding-bottom: 10px;
 }
 
 @media screen and (max-width: 768px){
@@ -72,7 +81,7 @@
         display: block;
     }
     .nav-sm-container{
-        background-color: #111625;
+        background-color: white;
         height: 10vh;
         display: flex;
         flex-direction: row;
@@ -83,14 +92,15 @@
     }
 
     .hamburger-button{
-        background-color: #111625;
+        background-color: white;
         outline: none;
         cursor: pointer;
         border: none;
     }
     .nav-sections-tab{
-        background-color: #111625;
+        background-color: white;
         padding-bottom: 10px;
+        border-bottom: 1px solid rgb(201, 193, 193);
     }
 
     .nav-search-container{
