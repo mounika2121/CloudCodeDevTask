@@ -69,6 +69,7 @@
     background-color: white;
     height: 3px;
     border: none;
+    color: white;
 }
 
 .home-heading{
@@ -135,6 +136,40 @@
     font-size: 20px;
 }
 
+.faqs {
+    text-align: center;
+    padding: 45px 10px;
+    background-color: #111625;
+    color: white;
+  }
+
+  .faq-para{
+    font-size: 18px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+  }
+  
+  .faq-item {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .faq-item h3 {
+    margin-top: 20px;
+  }
+  
+  .faq-item ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .faq-item ul li {
+    margin-bottom: 8px;
+  }
+  
+
 @media screen and (max-width: 768px){
     .banner-first-line{
         width: 150px;
@@ -185,4 +220,7 @@
     .achive-count{
         font-size: 45px;
     }
+    .faq-item {
+        max-width: 400px;
+      }
 }

@@ -1,0 +1,62 @@
+.careers-top-page{
+    padding-top: 130px;
+}
+
+
+.internship-form-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 12px solid rgb(61, 61, 144);
+}
+
+
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+@media screen and (max-width: 768px){
+    .internship-form-container{
+        max-width: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .careers-top-page{
+        padding-top: 180px;
+    }
+}
