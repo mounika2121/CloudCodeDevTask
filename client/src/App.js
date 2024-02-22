@@ -7,6 +7,7 @@ import Courses from './Components/Courses';
 import Careers from './Components/Careers';
 import AboutUs from './Components/AboutUs';
 import NotFound from './Components/NotFound';
+import Footer from './Components/Footer';
 import './App.css';
 
 class App extends React.Component{
@@ -22,6 +23,7 @@ class App extends React.Component{
             <Route path='/aboutus' exact Component={AboutUs} />
             <Route path='*' Component={NotFound} />
         </Routes>
+        <Footer />
       </div>
       </Router>
     )

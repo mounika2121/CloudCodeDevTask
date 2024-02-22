@@ -65,7 +65,7 @@
     align-items: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 879px){
     .category-top-container{
         margin-left: 15px;
         margin-top: 200px;
@@ -74,5 +74,12 @@
 
     .courses-list-ul{
         flex-wrap: wrap;
+    }
+    .courses-names{
+        font-size: 20px;
+    }
+
+    .viewAll-btn{
+        font-size: 12px;
     }
 }

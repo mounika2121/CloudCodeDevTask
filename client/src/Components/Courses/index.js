@@ -85,7 +85,7 @@ const Courses = () => {
             <div id="Placement-Internship">
                 <div className="courses-name-container">
                     <h2 className="courses-names">Placement & Internship</h2>
-                    <Button>View All</Button>
+                    <Button className="viewAll-btn">View All</Button>
                 </div>
                 <hr />
                 <ul className="courses-list-ul">

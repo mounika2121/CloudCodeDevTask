@@ -13,18 +13,22 @@
     margin-left: 45px;
     font-size: 60px;
     width: 300px;
+    text-shadow: 1px 1px 1px rgba(33, 33, 31, 0.5);
 }
 
 .banner-second-line{
     margin-left: 45px;
+    text-shadow: 1px 1px 1px rgba(33, 33, 31, 0.5);
 }
 
 .banner-third-line{
     margin-left: 45px;
+    text-shadow: 1px 1px 1px rgba(33, 33, 31, 0.5);
 }
 
 .banner-last-line{
     margin-left: 45px;
+    text-shadow: 1px 1px 1px rgba(33, 33, 31, 0.5);
 }
 
 .banner-button{
@@ -41,7 +45,9 @@
 }
 
 .home-training-img{
-    width: 350px;
+    width: 250px;
+    height: 200px;
+    border-radius: 8px;
 }
 
 .banner-btm-container{
@@ -56,7 +62,7 @@
 }
 .names-container{
     padding-top: 25px;
-    width: 500px;
+    width: 280px;
     text-align: center;
 }
 
@@ -107,7 +113,7 @@
     margin-top: 25px;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -119,6 +125,7 @@
     letter-spacing: 1px;
     border: none;
     border-radius: 25px;
+    font-weight: 600;
 }
 
 .home-achives-container{
@@ -139,12 +146,12 @@
 .faqs {
     text-align: center;
     padding: 45px 10px;
-    background-color: #111625;
+    background-color: hsl(225, 37%, 11%);
     color: white;
   }
 
   .faq-para{
-    font-size: 18px;
+    font-size: 16px;
     margin-top: 10px;
     letter-spacing: 1px;
     font-weight: lighter;
@@ -154,6 +161,7 @@
     max-width: 1100px;
     margin: 0 auto;
     text-align: left;
+    padding-top: 15px;
   }
   
   .faq-item h3 {
@@ -169,8 +177,11 @@
     margin-bottom: 8px;
   }
   
+  .faq-headings{
+    font-size: 18px;
+  }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 879px){
     .banner-first-line{
         width: 150px;
         font-size: 25px;
@@ -203,7 +214,7 @@
         flex-direction: column;
     }
     .names-container{
-        width: 280px;
+        width: 180px;
     }
     .home-heading{
         font-size: 18px;
@@ -223,4 +234,10 @@
     .faq-item {
         max-width: 400px;
       }
+    .faq-para{
+        font-size: 12px;
+    }
+    .faq-headings{
+        font-size: 16px;
+    }
 }

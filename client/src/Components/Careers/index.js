@@ -24,7 +24,7 @@ const Careers = () => {
         <div className='careers-top-page'>
         <div className='internship-form-container'>
             <h2>❄️ INTERNSHIP ALERT@</h2>
-            <h2>cloudcodedevelopers.in: Application Form 🚨 (14 DAYS 🆓)</h2>
+            <h2 className="company-name">cloudcodedevelopers.in: Application Form 🚨 (14 DAYS 🆓)</h2>
             <p>EARNING & LEARNING OPPORTUNITY AT CLOUD CODE DEVELOPERS 💥</p>
             <p>Internship training is a must before getting into MBA & Corporate Job 💼</p>
             <p>➡️ Join the <em><b>14 days Internship Program of Cloud Code Developers, one of the First & Largest Community led Edtech Company of India!</b></em></p>

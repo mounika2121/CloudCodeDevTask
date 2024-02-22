@@ -70,7 +70,7 @@ const LoginPopup = ({ isLogin, onClose }) => {
                                 <IoMdClose size={20} color='black' />
                             </Button>
                         </div>
-                        <h5>Login in to CloudCodeDevelopers</h5>
+                        <h5>Login in to CloudCode Developers</h5>
                         <TextField
                             label="Username"
                             name="username"

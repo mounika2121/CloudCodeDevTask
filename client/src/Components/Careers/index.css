@@ -1,5 +1,6 @@
 .careers-top-page{
     padding-top: 130px;
+    margin-bottom: 35px;
 }
 
 
@@ -58,9 +59,9 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 879px){
     .internship-form-container{
-        max-width: 400px;
+        max-width: 800px;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -69,5 +70,9 @@
     }
     .careers-input-fields{
         width: 100%;
+    }
+    .company-name{
+        font-size: 18px;
+        font-weight: bold;
     }
 }

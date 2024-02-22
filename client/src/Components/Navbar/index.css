@@ -73,7 +73,7 @@
     padding-bottom: 10px;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 879px){
     .nav-container{
         display: none;
     }
@@ -121,5 +121,5 @@
     }
     .nav-sm-login{
         text-align: center;
-    }
+    }   
 }
