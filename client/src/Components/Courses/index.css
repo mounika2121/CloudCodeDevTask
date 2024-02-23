@@ -65,6 +65,7 @@
     align-items: center;
 }
 
+
 @media screen and (max-width: 879px){
     .category-top-container{
         margin-left: 15px;

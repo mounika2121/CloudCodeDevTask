@@ -16,7 +16,7 @@ import { FaFacebookF } from "react-icons/fa6";
         <div className="row">
             {/* column-1   */}
             <div className="col-md-3 col-sm-6">
-                <a className="footer-logo" href="index.html">
+                <a className="footer-logo" href="#top-courses">
                     <img 
                     src="https://res.cloudinary.com/djbs4yqbz/image/upload/v1708089542/cloudcodelogo_wmrcvo.jpg" 
                     alt="footer-logo"

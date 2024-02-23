@@ -45,7 +45,6 @@
 }
 
 .home-training-img{
-    width: 250px;
     height: 200px;
     border-radius: 8px;
 }
@@ -239,5 +238,11 @@
     }
     .faq-headings{
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 1020px){
+    .home-training-img{
+        width: 250px;
     }
 }
